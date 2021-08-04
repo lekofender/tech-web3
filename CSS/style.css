@@ -1,0 +1,154 @@
+
+ body {
+    margin: 0;
+}
+
+.titulosite {
+    background-color: rgb(126, 126, 126);
+    color: #ecebeb;
+    padding: 10px;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ecebeb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active{
+    background-color: #111;
+}
+
+P{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+h1{
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: rgb(126, 126, 126);
+    text-align: center;
+    font-family: sans-serif;
+}
+h3{
+    color: rgb(126, 126, 126);
+    text-align: left;
+    font-family: sans-serif;
+}
+div.historiadatecnologia{
+    float: right;
+    margin: 30px;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+div.historiadatecnologia:hover{
+    border: 1px solid #111;
+}
+div.historiadatecnologia img{
+    width: 100%;
+    height: auto;
+}
+div.historia{
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+div.novatecnologia{
+    float: left;
+    margin: 40px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+div.novatecnologia:hover{
+    border: 1px solid #111;
+}
+div.novatecnologia img{
+    width: 100%;
+    height: auto;
+}
+div.nova{
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+img{
+    float: left;
+}
+a.linha{
+    text-decoration: none;
+}
+a.linha:hover{
+    color: rgb(126, 126, 126);
+}
+p{
+    word-spacing: 5px;
+    line-height: 25px;
+    padding: 40px;
+    
+}
+div.rodape{
+    background-color: #333;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    clear: both;
+    color: #ecebeb;
+}
+*{
+    box-sizing: border-box;
+}
+.coluna{
+    float: left;
+    
+
+}
+
+.coluna.lateral{
+    width: 50%;
+}
+
+.coluna.meio {
+     width: 50%;
+}
+
+@media screen and (max-width: 600px){
+    .coluna.lateral, .coluna{
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+
+  
+  

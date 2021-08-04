@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <title>Contato</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .titulosite {
+            background-color: rgb(126, 126, 126);
+            color: #ecebeb;
+            padding: 10px;
+            text-align: center;
+            font-family: "Trebuchet MS", Arial, sans-serif;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #ecebeb;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #111;
+        }
+
+        form {
+            font-size: 16px;
+            background: #CCC;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 0 2000px 10px 10px;
+
+        }
+
+        h1 {
+            font-family: 'Mulish', sans-serif;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            color: #333
+        }
+
+        input,
+        textarea {
+            width: 474px;
+            padding: 10px;
+        }
+
+        .enviar input {
+            background-color: #069;
+            height: 40px;
+            width: 150px;
+            font-weight: bold;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border: 1px solid;
+            color: #FFF;
+            cursor: pointer;
+        }
+
+        .enviar input:hover {
+            background: #078;
+        }
+
+        textarea {
+            width: 474px;
+            height: 120px;
+            line-height: 20px;
+        }
+
+        div.rodape {
+            background-color: #333;
+            padding: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 11px;
+            text-align: center;
+            clear: both;
+            color: #ecebeb;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="titulosite">
+        <h1>Technology
+            <i class="fas fa-database"></i>
+        </h1>
+    </div>
+
+    <ul>
+        <li><a class="active" href="Tecnologia.html">Home</a></li>
+        <li><a href="sobretecnologia.html">Tecnologia</a></li>
+        <li><a href="computação.html">História</a></li>
+        <li><a href="futuro.html">Futuro</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/results?search_query=tecnologia">YouTube</a></li>
+        <li><a href="evolução.html">Evolução</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+
+    <form name="formteste" action="" method="post">
+
+        </br>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fale&nbsp;conosco</h2>
+
+        <p class="nome">
+            <input type="text" name="nome" placeholder="informe seu nome" required="required">
+        </p>
+
+        <p class="email">
+            <input type="email" name="email" placeholder="informe seu email" required="required">
+        </p>
+
+        <p class="assunto">
+            <input type="text" name="assunto" placeholder="informe o assunto" required="required">
+        </p>
+
+        <p class="mensagem">
+            <textarea name="mensagem" placeholder="deixe sua mensagem"></textarea>
+        </p>
+
+        <p class="enviar">
+            <input type="submit" name="enviar" value="Enviar">
+        </p>
+
+
+
+    </form>
+    <div class="rodape">
+        Copyright &copy; 2021 - Tecnologia - Todos os direitos reservados
+    </div>
+
+
+</body>
+
+</html>
